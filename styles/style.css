@@ -1,0 +1,41 @@
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.etch {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    border-color:rgb(15, 26, 56);
+    border-style: solid;
+}
+
+.pixel {
+    flex: auto;
+}
+
+.row {
+    flex: auto;
+    display: flex;
+}
+
+
+input{
+    padding: 0px;
+    border: 0px;
+    width:30px
+}
+
+p{
+    display: inline;
+    color: white;
+}
